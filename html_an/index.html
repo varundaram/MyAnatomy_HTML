@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daram Varun Sai</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="support.html">Support</a>
+        <a href="youtube.html">Youtube</a>
+    </div>
+
+      
+    <div class="flex-container">
+
+      <div class="flex-child magenta">
+        <img  src="ratatouille-animated-film-pixar-walt-disney-pictures-rat-33c79aedeceea1bc9dda5ed5f020dd1d.png" width="50%" alt="rat">
+      </div>
+      
+      <div class="flex-child green">
+        <h1 id="n">DARAM VARUN SAI</h1><br>
+        <h3 id="des">Software Engineer</h3>
+      </div>
+      
+    </div>
+ 
+    <section>
+      <div class="flex-container">
+
+        <div class="flex-child magenta" id="para">
+          <p>Stacking all images in the same row can be a good solution for some layouts, 
+             for instance, if you have just a few images (or icons). However, image grids
+             are used more frequently, especially for galleries, so let’s see how to force 
+             the images into a neat grid.
+
+            We’ll need to use the flex-wrap property that specifies if the flex items are 
+            laid out in one or multiple lines. Its default value is nowrap which means that
+            all items are laid out in a single line. However, if we set it to wrap, the 
+            images will nicely flow into a grid. We need to add the flex-wrap rule to the 
+            flex container:
+            
+            <ol>
+              <li>Mix eggs and milk in a bowl.</li>
+              <li>Add salt and pepper.</li>
+            </ol>
+          </p>
+        </div>
+        
+        <div class="flex-child green"  id="para">
+          <p>Stacking all images in the same row can be a good solution for some layouts, 
+            for instance, if you have just a few images (or icons). However, image grids
+            are used more frequently, especially for galleries, so let’s see how to force 
+            the images into a neat grid.
+
+           We’ll need to use the flex-wrap property that specifies if the flex items are 
+           laid out in one or multiple lines. Its default value is nowrap which means that
+           all items are laid out in a single line. However, if we set it to wrap, the 
+           images will nicely flow into a grid. We need to add the flex-wrap rule to the 
+           flex container:
+          
+           <ul>
+            <li>Milk</li>
+            <li>Eggs</li>
+            <li>Butter</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </section><br><br>
+
+    <section>
+      <table id="education">
+        <tr>
+          <th>Qalification</th>
+          <th>Name of Institute</th>
+          <th>Year of passing</th>
+          <th>CGPA</th>
+        </tr>
+        <tr>
+          <td>B.Tech(CSE)</td>
+          <td>CMRCET</td>
+          <td>2021</td>
+          <td>8.56</td>
+        </tr>
+       
+        <tr>
+          <td>Intermediate</td>
+          <td>Sri Chaitanya</td>
+          <td>2017</td>
+          <td>8.7</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>Sri Chaitanya</td>
+          <td>2015</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td>B.Tech(CSE)</td>
+          <td>CMRCET</td>
+          <td>2021</td>
+          <td>8.56</td>
+        </tr>
+       
+        <tr>
+          <td>Intermediate</td>
+          <td>Sri Chaitanya</td>
+          <td>2017</td>
+          <td>8.7</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>Sri Chaitanya</td>
+          <td>2015</td>
+          <td>9.0</td>
+        </tr>
+       
+      </table>
+    </section>
+
+    <section>
+      <h2 id="Details">Please Provide Your Details So That We Can Reach Out To You!</h2>
+
+      <form Align="left" action="index.html" class="w3-container w3-card-4 w3-light-grey">
+
+        <label for="name">Name:</label><br>
+        <input class="w3-input w3-border w3-round-xxlarge" type="text" id="name" name="name" value=""><br>
+        <label for="email">Email id:</label><br>
+        <input class="w3-input w3-border w3-round-xxlarge" type="text" id="email" name="email" value=""><br>
+        <label for="number">Contact Number:</label><br>
+        <input class="w3-input w3-border w3-round-xxlarge" type="text" id="number" name="number" maxlength="10"><br>
+        <label for="qualification">Highest qualification:</label><br>
+        
+        <select class="w3-select w3-border" name="qualification" id="qualification">
+            <option value="M.tech">M.tech</option>
+            <option value="B.tech">B.tech</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="HigherEducation">HigherEducation</option>
+          </select><br>
+
+        <label for="gender" class="container">Gender:</label><br>
+        <input class="w3-radio" type="radio" id="male" name="g" value="male">
+        <label for="male" class="container">Male</label>
+        <input class="w3-radio" type="radio" id="female" name="g" value="female">
+        <label for="female" class="container">Female</label>
+        <input class="w3-radio" type="radio" id="other" name="g" value="other">
+        <label for="other" class="container">Other</label><br><br>
+
+        <label for="skill">Skills:</label><br>
+        <input class="w3-check" type="checkbox" id="java" name="java" value="">
+        <label for="java" class="container">JAVA</label>
+        <input class="w3-check" type="checkbox" id="Angular" name="Angular" value="">
+        <label for="Angular" class="container">Angular</label>
+        <input class="w3-check" type="checkbox" id="C" name="C" value="">
+        <label for="C" class="container">C</label>
+        <input class="w3-check" type="checkbox" id="C++" name="C++" value="">
+        <label for="C++" class="container">C++</label><br>
+
+
+        <br><input type="submit" value="Submit">
+    </form>
+    </section>
+
+    <section>
+      <div class="iframe-container">
+        <iframe display:block; width="900" height="506" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </section>
+
+</body>
+</html>
